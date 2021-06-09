@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ImranforUI/First-App.git/static/css/main.ff3beba4.chunk.css",
+    "main.js": "/ImranforUI/First-App.git/static/js/main.c8d6d04c.chunk.js",
+    "main.js.map": "/ImranforUI/First-App.git/static/js/main.c8d6d04c.chunk.js.map",
+    "runtime-main.js": "/ImranforUI/First-App.git/static/js/runtime-main.6e7bbc95.js",
+    "runtime-main.js.map": "/ImranforUI/First-App.git/static/js/runtime-main.6e7bbc95.js.map",
+    "static/css/2.bce18547.chunk.css": "/ImranforUI/First-App.git/static/css/2.bce18547.chunk.css",
+    "static/js/2.3ce76855.chunk.js": "/ImranforUI/First-App.git/static/js/2.3ce76855.chunk.js",
+    "static/js/2.3ce76855.chunk.js.map": "/ImranforUI/First-App.git/static/js/2.3ce76855.chunk.js.map",
+    "index.html": "/ImranforUI/First-App.git/index.html",
+    "precache-manifest.2b1b649d3427416f1bdbaf19c7725e14.js": "/ImranforUI/First-App.git/precache-manifest.2b1b649d3427416f1bdbaf19c7725e14.js",
+    "service-worker.js": "/ImranforUI/First-App.git/service-worker.js",
+    "static/css/2.bce18547.chunk.css.map": "/ImranforUI/First-App.git/static/css/2.bce18547.chunk.css.map",
+    "static/css/main.ff3beba4.chunk.css.map": "/ImranforUI/First-App.git/static/css/main.ff3beba4.chunk.css.map",
+    "static/js/2.3ce76855.chunk.js.LICENSE.txt": "/ImranforUI/First-App.git/static/js/2.3ce76855.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/ImranforUI/First-App.git/static/media/arrow_right.d9ccc77c.svg",
+    "static/media/App.css": "/ImranforUI/First-App.git/static/media/islamic-prayer-dusk-sun.a10c6586.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e7bbc95.js",
+    "static/css/2.bce18547.chunk.css",
+    "static/js/2.3ce76855.chunk.js",
+    "static/css/main.ff3beba4.chunk.css",
+    "static/js/main.c8d6d04c.chunk.js"
+  ]
+}
