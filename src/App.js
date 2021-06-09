@@ -10,16 +10,16 @@ import Count from './components/counter';
 let App = () => {
     return (
         <React.Fragment>
-        <nav class="navbar sticky-top navbar-light bg-light">
-        <a class="navbar-brand" href="#">Special DUA  Request (خصوصی دعا کی درخواست)</a>
+        <nav className="navbar sticky-top navbar-light bg-light">
+        <a className="navbar-brand" href="/">Special DUA  Request (خصوصی دعا کی درخواست)</a>
       </nav>
-                  <div class="fluid-container">
-                  <div class="row">
-                  <div class="col-md-4 col-lg-4 col-sm-4" >
+                  <div className="fluid-container">
+                  <div className="row">
+                  <div className="col-md-4 col-lg-4 col-sm-4" >
                   {/* {data.counts.map(count => <Count key={count.id} data={count}/>)} */}
                   <Count/>
                   </div>
-                  <div class="col-md-8 col-lg-8 col-sm-8">
+                  <div className="col-md-8 col-lg-8 col-sm-8">
                   <Assignment2/>
                   </div>
                   </div>

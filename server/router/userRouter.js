@@ -6,7 +6,7 @@ const User = require('../models/User');
 
 /*
     Usage : Register a User
-    URL  : http://127.0.0.1:5000/users/register
+    URL  : http://13.235.86.52:5000/users/register
     Method : POST
     Fields : name , email , password
     Access : Public
@@ -41,7 +41,7 @@ router.post('/register' , [
 
 /*
     Usage : Get All Data
-    URL  : http://127.0.0.1:5000/users/
+    URL  : http://13.235.86.52:5000/users/
     Method : GET
     Fields : no-fields
     Access : Public
