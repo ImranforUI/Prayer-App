@@ -5,7 +5,7 @@ import Popup from './Popup';
 
 
 let Assignment2 = () => {
-    const [platformValue, plaftormInputProps] = useRadioButtons("platform");
+    // const [platformValue, plaftormInputProps] = useRadioButtons("platform");
     let dispatch = useDispatch();
 
     let [user, setUser] = useState({
@@ -35,13 +35,14 @@ let Assignment2 = () => {
 
     // submitUser
     let submitUser = (e) => {
-        if(user.prayerType === "" || user.prayerType == undefined){
+        if(user.prayerType === "" || user.prayerType === undefined){
             alert('Please Select Atlest one Prayer Type  ---براہ کرم ایک تلاوت منتخب کریں');
           }
           else{      
         counterChange();
         console.log(user);
         dispatch(registerUser(user)); 
+        alert(`Thank You ${user.name}`);
         Popup.openModal();
         dispatch(getAllData());
           }
@@ -49,23 +50,23 @@ let Assignment2 = () => {
 
     useEffect(() =>{
         dispatch(getAllData());
-    }, []);
+    }, [dispatch]);
 
-    function useRadioButtons(name) {
-        const [value, setState] = useState(null);
+    // function useRadioButtons(name) {
+    //     const [value, setState] = useState(null);
 
-        const handleChange = e => {
-            setState(e.target.value);
-        };
+    //     const handleChange = e => {
+    //         setState(e.target.value);
+    //     };
 
-        const inputProps = {
-            name,
-            type: "radio",
-            onChange: handleChange
-        };
+    //     const inputProps = {
+    //         name,
+    //         type: "radio",
+    //         onChange: handleChange
+    //     };
 
-        return [value, inputProps];
-    }
+    //     return [value, inputProps];
+    // }
 
     return (
         <React.Fragment>
@@ -82,7 +83,7 @@ let Assignment2 = () => {
                             </div>
 
                             <div className="card-body bg-light">
-                                <form onSubmit={submitUser}>
+                                <form method="post" onSubmit={submitUser}>
                                     <div className="form-group">
                                         <label>Name</label>
                                         <input required

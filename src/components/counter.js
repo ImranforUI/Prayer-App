@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import React from 'react';
+import { useSelector } from 'react-redux';
 import { USERS_FEATURE_KEY } from '../redux/users/users.reducer';
 
 //styling
 //import './Count.css';
 
 const Count = props => {
-  let dispatch = useDispatch();
+  // let dispatch = useDispatch();
   let userInfo = useSelector((state) => {
      return state[USERS_FEATURE_KEY].user;
   });
