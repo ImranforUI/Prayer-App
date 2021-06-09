@@ -7,7 +7,7 @@ import {
 } from "./users.actionTypes";
 import Axios from "axios";
 
-let serverUrl = `http://34.209.235.161:5000`;
+let serverUrl = `http://13.233.4.38:5000`;
 // let serverUrl = `http://localhost:5000`;
 
 // Register User
